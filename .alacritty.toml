@@ -1,0 +1,67 @@
+[window]
+opacity = 0.88
+decorations = "None"
+
+[window.padding]
+x = 10
+y = 10
+
+[window.dimensions]
+columns = 150
+lines = 34
+
+[scrolling]
+history = 100000
+multiplier = 2
+
+[terminal]
+shell = "/bin/zsh"
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Control", action = "Copy" },
+  { key = "V", mods = "Control", action = "Paste" }
+]
+
+
+[font]
+size = 9.5
+
+[font.normal]
+# family = "JetBrainsMono NF"
+
+[font.bold]
+# family = "JetBrainsMono NF"
+
+[font.italic]
+# family = "JetBrainsMono NF"
+
+[font.bold_italic]
+# family = "JetBrainsMono NF"
+
+[colors.primary]
+background = "#0D1926"
+foreground = "#B4E1FD"
+
+[colors.normal]
+black = "#363636"
+red = "#FF0883"
+green = "#83FF08"
+yellow = "#FF8308"
+blue = "#0883FF"
+magenta = "#8308FF"
+cyan = "#08FF83"
+white = "#B6B6B6"
+
+[colors.bright]
+black = "#424242"
+red = "#FF1E8E"
+green = "#8EFF1E"
+yellow = "#FF8E1E"
+blue = "#1E8EFF"
+magenta = "#8E1EFF"
+cyan = "#1EFF8E"
+white = "#C2C2C2"
