@@ -1,0 +1,38 @@
+tap "koekeishiya/formulae"
+tap "romkatv/powerlevel10k"
+# Console Matrix
+brew "cmatrix"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Improved top (interactive process viewer)
+brew "htop"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Theme for zsh
+brew "powerlevel10k"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Terminal multiplexer
+brew "tmux"
+# Internet file retriever
+brew "wget"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Control your tools with a few keystrokes
+cask "raycast"
+# System monitor for the menu bar
+cask "stats"
+# Customizable timing of breaks
+cask "time-out"
+# Rust-based terminal
+cask "warp"
